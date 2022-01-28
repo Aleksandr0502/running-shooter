@@ -702,7 +702,7 @@ if __name__ == '__main__':
         if f[0] == 1:
             """Финишное окно"""
             finish_window(str(f[1]))
-            pygame.mixer.music.load("data/Проигрыш.mp3")
+            pygame.mixer.music.load("data/lose.mp3")
             pygame.mixer.music.play()
         elif f[0] == 2:
             """Окно продолжения"""
